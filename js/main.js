@@ -149,18 +149,24 @@
 
 function creation(){
 	$('#blocDyn').attr('style','display: block');
+	$('#team').addClass('bg_color1');
+	$('#contact').removeClass('bg_color1');
 	var html = $("#blocCreation").html();
 	$("#blocDyn").html(html);
 }
 
 function refonte(){
 	$('#blocDyn').attr('style','display: block');
+	$('#team').addClass('bg_color1');
+	$('#contact').removeClass('bg_color1');
 	var html = $("#blocRefonte").html();
 	$("#blocDyn").html(html);
 }
 
 function consult(){
 	$('#blocDyn').attr('style','display: block');
+	$('#team').addClass('bg_color1');
+	$('#contact').removeClass('bg_color1');
 	var html = $("#blocConsult").html();
 	$("#blocDyn").html(html);
 }
