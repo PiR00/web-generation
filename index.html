@@ -61,8 +61,8 @@
                                 <li><a href="#home">Accueil</a></li>
                                 <li><a href="#about">Qui sommes-nous</a></li>
                                 <li><a href="#portfolio">Nos prestations</a></li>
-																<li><a href="#team">L'équipe</a></li>
-                                <li><a href="#blog">Nos références</a></li>
+								<li><a href="#team">Me connaitre</a></li>
+                                <!--<li><a href="#blog">Nos références</a></li>-->
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -99,9 +99,9 @@
                 </div>
             </div>
         </div>
-    </header><!--End home area-->
-
-    <!--Start  About area-->
+    </header>
+	
+	
     <section class="about_area section_pdd" id="about">
         <div class="container">
             <div class="row">
@@ -200,23 +200,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <!--<div class="col-md-6 col-sm-6">
-					<div class="single_member_info">
-							<div class="member_image">
-									<img src="images/team/member_1.jpg" alt="team member image">
-							</div>
-							<div class="member_personality">
-									<h4>Trung-Tin Nguyen</h4>
-									<h5>Developer</h5>
-									<div class="social_member">
-											<a href="#"><i class="icofont icofont-social-pinterest"></i></a>
-											<a href="#"><i class="icofont icofont-social-facebook-messenger"></i></a>
-											<a href="#"><i class="icofont icofont-brand-linkedin"></i></a>
-									</div>
-							</div>
-					</div>
-                </div>-->
             </div>
         </div>
     </section>
@@ -300,9 +283,9 @@
                 </div>
             </div>
         </div>
-    </section>--><!--End blog area-->
+    </section>-->
 
-    <!-- Start wining award-->
+	
     <!--<section class="winner_area" id="winner">
         <div class="winner_overlay"></div>
         <div class="container">
@@ -370,7 +353,7 @@
                             <div class="info_details">
                                 <h4 class="info_title">T&eacute;l&eacute;phone</h4>
                                 <span>
-                                +336 71 56 02 64
+                                +33 6 71 56 02 64
                                 </span>
                             </div>
                         </div>
@@ -381,7 +364,7 @@
                             <div class="info_details">
                                 <h4 class="info_title">E-Mail</h4>
                                 <span>
-                                    <a href="#">contact@web-generation.com</a>
+                                    <a href="#">contact@web-generation.fr</a>
                                 </span>
                             </div>
                         </div>
@@ -393,12 +376,12 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="single_input">
-                                        <input type="text" name="name" placeholder="Nom" required="" style="background-color:transparent;">
+                                        <input type="text" name="name" id="nameContact" placeholder="Nom" required="" style="background-color:transparent;">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="single_input">
-                                        <input type="email" name="email" placeholder="Adresse mail" required="" style="background-color:transparent;">
+                                        <input type="email" name="email" id="emailContact" placeholder="Adresse mail" required="" style="background-color:transparent;">
                                     </div>
                                 </div>
                             </div>
@@ -408,7 +391,7 @@
                                         <textarea  name="message" id="contact_message" placeholder="Votre message" style="background-color:transparent;"></textarea>
                                     </div>
                                     <div class="send">
-                                        <input type="submit" value="Envoyer" name="submit">
+                                        <input type="submit" value="Envoyer" onclick="sendMail('contact');" name="submit">
                                     </div>
                                 </div>
                             </div>
@@ -444,13 +427,13 @@
             </div>
         </div>
     </footer>
-    <!--Scroll to top-->
+	
+	
     <div class="scrolltotop"> 
         <i class="icofont icofont-simple-up"></i> 
     </div>
-    <!--End footer area-->
-    
-	<!-- Champs hidden -->
+	
+	
 	
 	<div class="hidden" id="prestation">
 		<div id="blocCreation">
@@ -470,9 +453,12 @@
 						  </div><!--col-->
 						</div><!--row-->
 						<h4>
-						  Vous cherchez un site vitrine, concis et sans beaucoup de page ? Un site simple pour ne pas perdre l'utilisateur ? Cette gamme est faites pour vous. Cette gamme vous donne accès à une solution clé en main. Vous serez fin prêt à vous démarquer de la concurence.
+						  La gamme standard vous offre la possibilité d'avoir un site dynamique, concis et fluid.
 						</h4>
 						<h4>&nbsp;</h4>
+						<h4>
+							Car aujourd'hui les sites internet sont beaucoups trop lourd, les utilisateurs si perdent. Offrez à vos client un vrai site clair ou les informations sont &agrave; leurs portée.
+						</h4>
 						<h4>
 							De 1 &agrave; 3 pages choissiez ce qui vous convient.
 						</h4>
@@ -493,11 +479,11 @@
 						  </div><!--col-->
 						</div><!--row-->
 						<h4>
-						  Vous avez besoin d'un site complet ? Un site fluid ou malgrès le nombre de pages l'utilisateur aura une bonne expérience en parcourant votre site ? La gamme premium est faites pour vous, un site  prêt à l'emploi pour permettre à votre entreprise de gagner en visibilité.
+							La gamme premium vous offre la possibilité d'avoir un site à votre image, dites nous ce qui vous convient et nous nous occupons du reste.
 						</h4>
 						<h4>&nbsp;</h4>
 						<h4>
-							Avec un nombre de pages ilimité
+							Avec un nombre de pages ilimité, offrez vous une vrai visibilit&eacute; au pr&egrave;s de vos client.
 						</h4>
 						<h4>
 							&Agrave; partir de 1000€, Faites une demande de devis en ligne en moins de 2min et recevez-le rapidement par mail. 
@@ -522,11 +508,21 @@
 				</div>
 				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="row">
+						  <div class="col-lg-8">
+							<h2>Refonte totale ou partielle</h2>
+						  </div><!--col-->
+						</div><!--row-->
+						<br>
 						<h4>
-						  Vous avez d&eacute;j&agrave; votre site mais il est vieillissant ? Vous voulez lui donner un coups de jeune ? C'est le moment du lifting, ensemble donnons &agrave; votre site une seconde jeunesse. Attirez une nouvelle client&egrave;le grace &agrave; un site moderne et dynamique.
+							Le web est constamment en &eacute;volution, que ce soit graphiquement ou techniquement,
+							c'est en ce sens que nous vous proposons d'effectuer un petit coups de jeune à votre site web 																		
+							<br>afin d'attirez une nouvelle client&egrave;le grâce &agrave; un site moderne, dynamique et responsive.
+							<br>Une refonte de votre site vous permettra notamment de la rendre plus attrayant, plus visible sur les résultats des moteurs de recherches et am&eacute;liorera l'experience utilisateur.						
 						</h4>
+						<br>
 						<h4>
-						  &Agrave; partir de 500€, offrez vous un site moderne et au gout du jour.
+							Offrez une nouvelle vie à votre site &agrave; partir de 500€
 						</h4>
 						<h4>&nbsp;</h4>
 						<h4>
@@ -554,7 +550,7 @@
 						  </div><!--col-->
 						</div><!--row-->
 						<h4>
-							Vous avez votre site mais vos clients ne vous trouve pas ? C'est normal, avoir un site sur internet ne suffit pas, il faut etre r&eacute;f&eacute;rencer par google afin d'apparaitre dans les premiers r&eacute;sultat de la recherche.
+							Car avoir un site sur internet ne suffit pas pour être vu, il faut le r&eacute;f&eacute;rencer, en effet il faut mettre en avant votre site internet aupr&egrave;s des moteurs de recherche.
 						</h4>
 						<h4>
 							Nous vous proposons une analyse suivie de mise en place d'outils afin d'augmenter votre place dans les résuultats google ou autre moteur de recherche.
@@ -594,10 +590,10 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="single_text_area">
-									<textarea  name="message" id="contact_message" placeholder="Votre message"></textarea>
+									<textarea  name="message" id="devis_message" placeholder="Votre message"></textarea>
 								</div>
 								<div class="send">
-									<input type="submit" value="Envoyer" onclick="sendMail();" name="submit">
+									<input type="submit" value="Envoyer" onclick="sendMail('');" name="submit">
 								</div>
 							</div>
 						</div>

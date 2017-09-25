@@ -3,8 +3,15 @@
 	
 	$mail = $_POST['mail'];
 	$msg = $_POST['msg'];
-
-	//mail('pierre.thiebert@outlook.fr', 'demande de devis', $msg);
+	$type = $_POST['type'];
+	
+	if($type == "contact"){
+		mail('contact@web-generation.fr', 'Contact', $msg);
+	}else{
+		mail('contact@web-generation.fr', 'demande de devis', $msg);
+	}
+	
+	
 	
 	
 	echo json_encode('success');

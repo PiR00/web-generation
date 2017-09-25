@@ -189,18 +189,28 @@ function makeDevis(type){
 	$("#hiddenType").val(type);
 }
 
-function sendMail()
+function sendMail(typeMail)
 {
-	var type = $("#hiddenType").val();
-	var nom = $("#name").val();
-	var mail = $("#mail").val();
-	var msg = $("#contact_message").val();
+	if(typeMail != ''){
+		var type = typeMail;
+		var nom = $("#nameContact").val();
+		var mail = $("#emailContact").val();
+		var msg = $("#contact_message").val();
+	}
+	else{
+		var type = $("#hiddenType").val();
+		var nom = $("#name").val();
+		var mail = $("#mail").val();
+		var msg = $("#devis_message").val();
+	}
+		
+	
 	var MailMsg = type + " / "+ nom + " / "+mail+" / "+msg;
 		$.ajax({
 		type: "POST",
 		url: 'devis.php',
 		dataType: 'json',
-		data: {mail: mail, msg: msg},
+		data: {mail: mail, msg: MailMsg, type: type},
 		success: function (obj, textstatus) {
 			retourMail(type);
 		}
