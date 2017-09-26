@@ -1,39 +1,17 @@
-/*
-* ----------------------------------------------------------------------------------------
-    Author       : miniboss
-    Template Name: Hamra - Personal Portfolio Template
-    Tags: One Page, Creative Template, Portfolio, Personal
-    Version      : 1.0
-* ----------------------------------------------------------------------------------------
-*/
-    (function(){
-        "use strict";
-    // activate counter up
-        $('.counter').counterUp({
-            delay: 10,
-            time: 4000
-        });
-    // activate parallax
+(function(){
+      "use strict";
+      $('.counter').counterUp({
+          delay: 10,
+          time: 4000
+      });
     	$('.winner_area').parallax("50%", 0.3);
-        $('.client_area').parallax("50%", 0.3);
+      $('.client_area').parallax("50%", 0.3);
     	$('.welcome-image-area').parallax("50%", 0.3);
-        
-        // activate mixItUp
-        $('.portfolio_items').mixItUp();
-	/*
-        YTPlayer active
-    */ 
-        $( window ).on( "load", function(){
-            jQuery("#P1").YTPlayer();
-        });
-    
+      $('.portfolio_items').mixItUp();
+      $( window ).on( "load", function(){
+          jQuery("#P1").YTPlayer();
+      });
 
-
-    /*
-    * -----------------------------------------------------------
-    *  Owl-carousel active
-    * -----------------------------------------------------------
-    */
     	$('.clients_says').owlCarousel({
             loop:true,
             autplay:false,
@@ -51,34 +29,23 @@
                 }
             }
         });
-    /*------------smooth scroll---------------*/
-  // Add smooth scrolling to all links
         $("a").on('click', function(event) {
 
-        // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
-          // Prevent default anchor click behavior
           event.preventDefault();
 
-        // Store hash
           var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
           $('html, body').animate({
             scrollTop: $(hash).offset().top
           }, 1200, function(){
-       
-        // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
           });
-        } // End if
+        }
         });
 
-    /*-------------add sticky class----------------*/
         $(window).on('scroll',function(){
             if($(this).scrollTop() > 50)
-            {              
+            {
               $('.navigation_area').addClass('sticky');
             }
             else
@@ -88,11 +55,6 @@
 
         });
 
-    /*
-    * -------------------------------------------------------
-    *  scroll to top 
-    * -------------------------------------------------------
-    */
         $('.scrolltotop').fadeOut(1000);
             $(window).on('scroll', function(){
 
@@ -108,13 +70,9 @@
         $('.scrolltotop').on('click', function(){
         $('html,body').animate({scrollTop: 0}, 1000);
     });
-        
 
-    /*
-    * -------------------------------------------------------
-    *  responsive menu
-    * -------------------------------------------------------
-    */
+
+
         function mobileMenu(){
             var windwidth = $(window).width();
                 if(windwidth < 768){
@@ -133,14 +91,14 @@
                 $('.main_menu').hide();
             });
 
-    /*-------------- typed custom----------*/
+
         Typed.new(".joyonto", {
             strings: ["Bienvenue sur","Web Generation"],
             typeSpeed: 60,
             loop:true,
             backDelay: 1000
         });
-    /*-------------Preloader active-------------*/
+
         jQuery(window).load(function() {
             $('.preloader').fadeOut(1000);
         });
@@ -174,7 +132,7 @@ function consult(){
 $("#creation").on("click", function(){
 	creation();
 });
-	
+
 $("#refonte").on("click", function(){
 	refonte();
 });
@@ -203,8 +161,8 @@ function sendMail(typeMail)
 		var mail = $("#mail").val();
 		var msg = $("#devis_message").val();
 	}
-		
-	
+
+
 	var MailMsg = type + " / "+ nom + " / "+mail+" / "+msg;
 		$.ajax({
 		type: "POST",
