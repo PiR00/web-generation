@@ -100,7 +100,7 @@
         });
 
         jQuery(window).load(function() {
-            $('.preloader').fadeOut(1000);
+            $('.preloader').fadeOut(500);
         });
 
 })(jQuery);
@@ -161,9 +161,11 @@ function sendMail(typeMail)
 		var mail = $("#mail").val();
 		var msg = $("#devis_message").val();
 	}
+  var MailMsg = "Type de contact : "+type+" | ";
+  MailMsg += "Nom : "+nom+" | ";
+  MailMsg += "Adresse mail : "+mail+" | ";
+  MailMsg += "Message : "+msg;
 
-
-	var MailMsg = type + " / "+ nom + " / "+mail+" / "+msg;
 		$.ajax({
 		type: "POST",
 		url: 'devis.php',
