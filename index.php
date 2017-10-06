@@ -133,7 +133,7 @@
                           <br><br>
                           &Agrave; l'&eacute;coute de nos clients, nous mettons tout en œuvre afin que le r&eacutesultat refl&egrave;te fid&egrave;lement vos attentes.
 													<br><br>
-                          Et ensuite ? Apr&egrave;s d&eacute;ploiement de votre site en ligne, nous vous accompagnerons au quotidien afin de tenir votre site &egrave; jour et s&eacute;curis&eacute;, ce suivi est donc inclus notre prestation.
+                          Et ensuite ? Apr&egrave;s d&eacute;ploiement de votre site en ligne, nous vous accompagnerons au quotidien afin de tenir votre site &agrave; jour et s&eacute;curis&eacute;, ce suivi est donc inclus notre prestation.
 												</p>
                     </div>
                 </div>
