@@ -26,11 +26,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
     <meta name="description" content="Grâce &agrave; Web-G&eacute;n&eacute;ration obtenez un site rapidement, fluide, dynamique et moderne nous site seront vous apportez une client&agrave;le plus large. Faites un devis en ligne en moins de 30 secondes ou prenez directement contact avec nous pour avoir de plus amples informations" />
-=======
-    <meta name="description" content="Grâce &agrave; Web-G&eacute;n&eacute;ration obtenez un site rapidement, fluid, dynamique et moderne nous site seront vous apportez une client&agrave;le plus large. Faites un devis en ligne en moins de 30 secondes ou prenez directement contact avec nous pour avoir de plus amples informations" />
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
     <meta name="keywords" content="creation, cr&eacute;ation, developpement, site, internet, web, refonte, SEO, consulting, rouen, caen, fluid, moderne, web generation, generation, buchy">
     <!-- Fin MetaData -->
 
@@ -131,7 +127,6 @@
                     <div class="single_info_content">
                         <h3 style="font-size:35px;">Web G&eacute;n&eacute;ration</h3>
 												<br>
-<<<<<<< HEAD
                         <p style="font-size:17px;">Web-G&eacute;n&eacute;ration vous propose plusieurs prestations, de la cr&eacute;ation de site internet &agrave; la refonte de votre site existant et en passant par de la consultation en r&eacute;f&eacute;rencement. Nous vous garantissons des sites fluides, dynamiques et modernes.
                           <br><br>
 													N'attendez plus, prenez vite contact avec nous et nous vous concevrons un site &agrave; votre image.
@@ -140,16 +135,6 @@
 													<br><br>
                           Et ensuite ? Apr&egrave;s d&eacute;ploiement de votre site en ligne, nous vous accompagnerons au quotidien afin de tenir votre site &egrave; jour et s&eacute;curis&eacute;, ce suivi est donc inclus notre prestation.
 												</p>
-=======
-                        <p style="font-size:17px;">Web-G&eacute;n&eacute;ration vous propose plusieurs prestations, de la cr&eacute;ation de site internet &agrave; leurs refontes en passant par de la consultation en r&eacute;f&eacute;rencement. Nous vous garantissons des sites fuilde, dynamique et moderne, les clients habitu&eacute;es &agrave; la navigation en ligne comme les novices seront &agrave; l'aise sur votre site.
-                          <br /><br />
-                          N'attendez plus, prenez contact avec nous et nous vous fournirons un site &agrave; votre image.
-                          <br /><br />
-                          &Agrave; l'&eacute;coute de nos clients, nous avons &agrave; coeur de vous satisfaire, c'est pourquoi nous mettrons tout en oeuvre pour que le site soit celui qui vous correspondra.
-                          <br /><br />
-                          Et apr&egrave;s ? On ne vous laisse pas tomber, un suivi quotidien est inclus dans nos prix, une modification, un probl&egrave;me avec votre site ? Pas d'inqui&egrave;tude, nous sommes l&agrave;.
-                        </p>
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
                     </div>
                 </div>
             </div>
@@ -219,21 +204,12 @@
                 <div class="col-md-6 col-sm-6 col-md-offset-3 col-xs-12">
                     <div class="single_member_info">
                         <div class="member_image">
-<<<<<<< HEAD
                             <img src="images/team/team1.png" alt="photo developpeur" style="max-width: 30%;">
                         </div>
                         <div class="member_personality">
                             <h4>Pierre Thiebert</h4>
                             <h5>Developpeur web ( PHP - .NET - NodeJS )</h5>
 							              <h5>Developpeur mobile ( Android - iPhone - Windows Mobile )</h5>
-=======
-                            <img src="images/team/team1.png" alt="photo developpeur">
-                        </div>
-                        <div class="member_personality">
-                            <h4>Pierre Thiebert</h4>
-                            <h5>Developpeur web (PHP - .NET - NodeJS)</h5>
-							              <h5>Developpeur mobile (Android - IPhone - Windows Mobile)</h5>
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
                             <div class="social_member">
                                 <a href="https://www.linkedin.com/in/pierre-thiebert-46a297b5" target="_blank"><i class="icofont icofont-brand-linkedin"></i></a>
                             </div>
@@ -324,13 +300,6 @@
             </div>
         </div>
     </section>-->
-<<<<<<< HEAD
-
-
-=======
-
-
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
     <!--<section class="winner_area" id="winner">
         <div class="winner_overlay"></div>
         <div class="container">
@@ -362,13 +331,6 @@
             </div>
         </div>
     </section>-->
-<<<<<<< HEAD
-
-
-=======
-
-
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
     <section class="contact_area section_pdd bg_color1" id="contact">
         <div class="container">
             <div class="row">
@@ -383,11 +345,7 @@
                     <div class="contact_information">
                         <div class="get_touch">
                             <h4>Prenez contact</h4>
-<<<<<<< HEAD
                             <p>Lundi - Vendredi : 8:00 – 18:00</p>
-=======
-                            <p>Lundi-Vendredi: 8:00 – 18:00</p>
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
                         </div>
                         <div class="single_contact_info">
                             <a href="https://goo.gl/maps/k8B7M1gsRTr">
@@ -398,13 +356,8 @@
                             <div class="info_details">
                                 <h4 class="info_title">Adresse</h4>
                                 <span>
-<<<<<<< HEAD
 																	<a href="https://goo.gl/maps/k8B7M1gsRTr" target="_blank">120 Route de sommery, 76750 - Buchy, France</a>
 																</span>
-=======
-                                120 Route de sommery, 76750 - Buchy, France
-                                </span>
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
                             </div>
                         </div>
                         <div class="single_contact_info">
@@ -416,11 +369,7 @@
                             <div class="info_details">
                                 <h4 class="info_title">T&eacute;l&eacute;phone</h4>
                                 <span>
-<<<<<<< HEAD
-																	<a href="tel:+33671560264" target="_blank">+33 6 71 56 02 64</a>
-=======
-                                +33 6 71 56 02 64
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
+																	<a href="tel:+33671560264">+33 6 71 56 02 64</a>
                                 </span>
                             </div>
                         </div>
@@ -433,12 +382,7 @@
                             <div class="info_details">
                                 <h4 class="info_title">E-Mail</h4>
                                 <span>
-<<<<<<< HEAD
-                                    <a href="mailto:contact@web-generation.fr" target="_blank">contact@web-generation.fr</a>
-=======
-                                    <a href="#">contact@web-generation.fr</a>
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
-                                </span>
+                                    <a href="mailto:contact@web-generation.fr">contact@web-generation.fr</a>
                             </div>
                         </div>
                     </div>
@@ -526,7 +470,6 @@
 						  </div>
 						</div>
 						<h4>
-<<<<<<< HEAD
 						  La gamme standard vous offre la possibilit&eacute; d'avoir un site dynamique, concis et fluide.
 						</h4>
 						<h4>&nbsp;</h4>
@@ -539,20 +482,6 @@
 						</h4>
 						<h4>
 							Faites votre demande de devis en ligne en quelques minutes seulement et recevez notre proposition par mail.<br><br> &Agrave; partir de 500€ HT.
-=======
-						  La gamme standard vous offre la possibilit&eacute; d'avoir un site dynamique, concis et fluid.
-						</h4>
-						<h4>&nbsp;</h4>
-						<h4>
-							Car aujourd'hui les sites internet sont beaucoups trop lourds, les utilisateurs s'y perdent. Offrez &agrave; vos clients un vrai site clair o&ugrave; les informations sont &agrave; leurs port&eacute;es.
-						</h4>
-            <h4>&nbsp;</h4>
-						<h4>
-							De 1 &agrave; 3 pages choissiez ce qui vous convient.
-						</h4>
-						<h4>
-							&Agrave; partir de 500€, faites une demande de devis en ligne en moins de 2min et recevez-le rapidement par mail.
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
 						</h4>
 						<h4>&nbsp;</h4>
 						<h4>
@@ -571,7 +500,6 @@
 						  </div>
 						</div>
 						<h4>
-<<<<<<< HEAD
 							La gamme premium vous offre la possibilit&eacute; de r&eacutealiser un site &agrave; votre image, nous serons à l'écoute de vos besoins exprimés.
 						</h4>
 						<h4>&nbsp;</h4>
@@ -582,18 +510,7 @@
 						<h4>
 							Faites votre demande de devis en ligne en quelques minutes seulement et recevez notre proposition par mail.
 							<br><br>
-							&Agrave; partir de 1000€ HT
-=======
-							La gamme premium vous offre la possibilit&eacute; d'avoir un site &agrave; votre image, dites nous ce qui vous convient et nous nous occupons du reste.
-						</h4>
-						<h4>&nbsp;</h4>
-						<h4>
-							Avec un nombre de pages ilimit&eacute;, offrez-vous une vraie visibilit&eacute; au pr&egrave;s de vos clients.
-						</h4>
-            <h4>&nbsp;</h4>
-						<h4>
-							&Agrave; partir de 1000€, Faites une demande de devis en ligne en moins de 2min et recevez-le rapidement par mail.
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
+							&Agrave; partir de 900€ HT
 						</h4>
 						<h4>&nbsp;</h4>
 						<h4>
@@ -622,7 +539,6 @@
 						</div>
 						<br>
 						<h4>
-<<<<<<< HEAD
 							Internet est constamment en &eacute;volution, que ce soit techniquement ou graphiquement.
             </h4>
 						<br>
@@ -635,18 +551,6 @@
 						<br>
 						<h4>
 							Offrez une nouvelle vie &agrave; votre site &agrave; partir de 500€ HT
-=======
-							Internet est constamment en &eacute;volution, que ce soit graphiquement ou techniquement.
-            </h4>
-            <h4>
-							C'est en ce sens que nous vous proposons d'effectuer un petit coups de jeune &agrave; votre site web
-							<br>afin de devenir plus attractif grâce &agrave; un site moderne, dynamique et responsive.
-							<br>Une refonte de votre site vous permettra notamment de le rendre plus attrayant, plus visible sur les r&eacute;sultats des moteurs de recherche et am&eacute;liorera l'experience utilisateur.
-						</h4>
-						<br>
-						<h4>
-							Offrez une nouvelle vie &agrave; votre site &agrave; partir de 500€
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
 						</h4>
 						<h4>&nbsp;</h4>
 						<h4>
@@ -674,19 +578,11 @@
 						  </div>
 						</div>
 						<h4>
-<<<<<<< HEAD
 							Avoir un site sur internet ne suffit pas pour vous rendre plus visible auprès de vos client, il faut le r&eacute;f&eacute;rencer, en effet il faut mettre en avant votre site internet aupr&egrave;s des moteurs de recherche.
 						</h4>
             <h4>&nbsp;</h4>
 						<h4>
 							Nous vous proposons ainsi, une analyse, suivi d'une mise en place d'outils spécifiques afin d'augmenter votre place dans les r&eacute;sultats des moteurs de recherche (Google, Bings, Qwant...).
-=======
-							Car avoir un site sur internet ne suffit pas pour &ecirc;tre vu, il faut le r&eacute;f&eacute;rencer, en effet il faut mettre en avant votre site internet aupr&egrave;s des moteurs de recherche.
-						</h4>
-            <h4>&nbsp;</h4>
-						<h4>
-							Nous vous proposons une analyse suivie de mise en place d'outils afin d'augmenter votre place dans les r&eacute;sultats google ou autres moteur de recherche.
->>>>>>> 91cdf28cab04ad63ee8618fcff162545c800c710
 						</h4>
 						<h4>&nbsp;</h4>
 						<h4>
