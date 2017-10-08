@@ -430,13 +430,13 @@
                         </div>
                         <div class="widget_social_icon">
                             <div class="single_icon">
-                                <a href="https://www.facebook.com/webgener/"><i class="icofont icofont-social-facebook"></i> </a>
+                                <a href="https://www.facebook.com/webgener/" target="_blank"><i class="icofont icofont-social-facebook"></i> </a>
                             </div>
                             <div class="single_icon">
-                                <a href="https://twitter.com/Web_Ge"><i class="icofont icofont-social-twitter"></i></a>
+                                <a href="https://twitter.com/Web_Ge" target="_blank"><i class="icofont icofont-social-twitter"></i></a>
                             </div>
                             <div class="single_icon">
-                                <a href="https://www.linkedin.com/company/11296932/"><i class="icofont icofont-brand-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/company/11296932/" target="_blank"><i class="icofont icofont-brand-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
