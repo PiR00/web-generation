@@ -586,6 +586,10 @@
 						</h4>
 						<h4>&nbsp;</h4>
 						<h4>
+							Offrez vous une vraie visibilit&eacute;e &agravre; partir de 300€ HT
+						</h4>
+						<h4>&nbsp;</h4>
+						<h4>
 						  <a onclick="makeDevis('c');"><button type="button" class="btn btn-secondary" style="border: 1px solid #000000;border-radius: 0;background: transparent;color: #000;">Faire un devis</button></a>
 						</h4>
 					</div>
