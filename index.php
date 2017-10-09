@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107056841-1"></script>
     <script>
@@ -27,7 +28,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Grâce &agrave; Web-G&eacute;n&eacute;ration obtenez un site rapidement, fluide, dynamique et moderne nous site seront vous apportez une client&agrave;le plus large. Faites un devis en ligne en moins de 30 secondes ou prenez directement contact avec nous pour avoir de plus amples informations" />
-    <meta name="keywords" content="creation, cr&eacute;ation, developpement, site, internet, web, refonte, SEO, consulting, rouen, caen, fluid, moderne, web generation, generation, buchy">
+    <meta name="keywords" content="creation, cr&eacute;ation, developpement, site, internet, web, refonte, SEO, consulting, rouen, caen, fluid, moderne, web generation, generation, buchy, pierre, thiebert">
     <!-- Fin MetaData -->
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
@@ -389,7 +390,7 @@
                 </div>
                 <div class="col-md-8 col-sm-7">
                     <div class="form_area">
-                        <form action="#">
+                        <form action="#" id="formContact">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="single_input">
@@ -408,7 +409,7 @@
                                         <textarea  name="message" id="contact_message" placeholder="Votre message" required style="background-color:transparent;"></textarea>
                                     </div>
                                     <div class="send">
-                                        <input type="submit" value="Envoyer" onclick="sendMail('contact');" name="submit">
+										<input type="submit" value="Envoyer" onclick="sendMail('contact');" name="submit">
                                     </div>
                                 </div>
                             </div>
