@@ -161,6 +161,15 @@ function sendMail(typeMail)
 		var mail = $("#mail").val();
 		var msg = $("#devis_message").val();
 	}
+	if(nom == "" || mail == "" || msg == ""){
+		return;
+	}
+	
+	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	if(!re.test(mail)){
+		return;
+	}
+	
   var MailMsg = "Type de contact : "+type+" | ";
   MailMsg += "Nom : "+nom+" | ";
   MailMsg += "Adresse mail : "+mail+" | ";

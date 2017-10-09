@@ -393,19 +393,19 @@
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="single_input">
-                                        <input type="text" name="name" id="nameContact" placeholder="Nom" required="" style="background-color:transparent;">
+                                        <input type="text" name="name" id="nameContact" placeholder="Nom" required style="background-color:transparent;">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="single_input">
-                                        <input type="email" name="email" id="emailContact" placeholder="Adresse mail" required="" style="background-color:transparent;">
+                                        <input type="email" name="email" id="emailContact" placeholder="Adresse mail" required style="background-color:transparent;">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="single_text_area">
-                                        <textarea  name="message" id="contact_message" placeholder="Votre message" style="background-color:transparent;"></textarea>
+                                        <textarea  name="message" id="contact_message" placeholder="Votre message" required style="background-color:transparent;"></textarea>
                                     </div>
                                     <div class="send">
                                         <input type="submit" value="Envoyer" onclick="sendMail('contact');" name="submit">
@@ -611,19 +611,19 @@
 						<div class="row">
 							<div class="col-md-6 col-sm-6">
 								<div class="single_input">
-									<input type="text" name="name" id="name" placeholder="Nom" required="">
+									<input type="text" name="name" id="name" placeholder="Nom" required>
 								</div>
 							</div>
 							<div class="col-md-6 col-sm-6">
 								<div class="single_input">
-									<input type="email" name="email" id="mail" placeholder="Adresse mail" required="">
+									<input type="email" name="email" id="mail" placeholder="Adresse mail" required>
 								</div>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12">
 								<div class="single_text_area">
-									<textarea  name="message" id="devis_message" placeholder="Votre message"></textarea>
+									<textarea  name="message" id="devis_message" placeholder="Votre message" required></textarea>
 								</div>
 								<div class="send">
 									<input type="submit" value="Envoyer" onclick="sendMail('');" name="submit">
