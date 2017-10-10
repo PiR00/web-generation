@@ -93,7 +93,7 @@
 
 
         Typed.new(".joyonto", {
-            strings: ["Bienvenue sur","Web Generation"],
+            strings: ["Bienvenue sur","Web Génération"],
             typeSpeed: 60,
             loop:true,
             backDelay: 1000
