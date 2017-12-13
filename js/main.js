@@ -105,6 +105,30 @@
 
 })(jQuery);
 
+function creation(){
+	$('#blocDyn').attr('style','display: block');
+	$('#team').addClass('bg_color1');
+	$('#contact').removeClass('bg_color1');
+	var html = $("#blocCreation").html();
+	$("#blocDyn").html(html);
+}
+
+function refonte(){
+	$('#blocDyn').attr('style','display: block');
+	$('#team').addClass('bg_color1');
+	$('#contact').removeClass('bg_color1');
+	var html = $("#blocRefonte").html();
+	$("#blocDyn").html(html);
+}
+
+function consult(){
+	$('#blocDyn').attr('style','display: block');
+	$('#team').addClass('bg_color1');
+	$('#contact').removeClass('bg_color1');
+	var html = $("#blocConsult").html();
+	$("#blocDyn").html(html);
+}
+
 function blocDyn(bloc){
     $('#blocDyn').attr('style','display: block');
 	$('#team').addClass('bg_color1');
@@ -144,22 +168,17 @@ function sendMail(typeMail)
 		var nom = $("#name").val();
 		var mail = $("#mail").val();
 		var msg = $("#devis_message").val();
-	}
-	if(nom == "" || mail == "" || msg == ""){
-		return;
-	}
+    }
+    
+    if(!tryCheck(nom, msg, mail))
+        return;
 	
-	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-	if(!re.test(mail)){
-		return;
-	}
-	
-  var MailMsg = "Type de contact : "+type+" | ";
-  MailMsg += "Nom : "+nom+" | ";
-  MailMsg += "Adresse mail : "+mail+" | ";
-  MailMsg += "Message : "+msg;
+    var MailMsg = "Type de contact : "+type+" | ";
+    MailMsg += "Nom : "+nom+" | ";
+    MailMsg += "Adresse mail : "+mail+" | ";
+    MailMsg += "Message : "+msg;
 
-		$.ajax({
+    $.ajax({
 		type: "POST",
 		url: 'devis.php',
 		dataType: 'json',
@@ -170,6 +189,30 @@ function sendMail(typeMail)
 	});
 
 }
+
+function tryCheck(nom, msg, mail)
+{
+    if(nom == ""){
+		error("nom_vide");
+        return false;
+    }
+    if(mail == ""){
+		error("mail_vide");
+        return false;
+    }
+    if(msg == ""){
+        error("msg_vide");
+        return false;
+	}
+	
+	var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	if(!re.test(mail)){
+        error("mail_error");
+        return false;
+    }
+    return true;
+}
+
 
 function retourMail(type){
 	switch(type){
@@ -188,3 +231,25 @@ function retourMail(type){
 	}
 }
 
+function error(type){
+    $("#name").css("border-bottom-color", "#ddd");
+    $("#devis_message").css("border-color", "#ddd");
+    $("#mail").css("border-bottom-color", "#ddd");
+    
+    switch(type){
+        case "nom_vide":
+            $("#name").css("border-bottom-color", "coral");
+            return;
+        case "msg_vide":
+            $("#devis_message").css("border-color", "coral");
+            return;
+        case "mail_vide":
+            $("#mail").css("border-bottom-color", "coral");
+            return;
+        case "mail_error":
+            $("#mail").css("border-bottom-color", "coral");
+            return;
+        default:
+            return;
+    }
+}
