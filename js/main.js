@@ -105,40 +105,24 @@
 
 })(jQuery);
 
-function creation(){
-	$('#blocDyn').attr('style','display: block');
+function blocDyn(bloc){
+    $('#blocDyn').attr('style','display: block');
 	$('#team').addClass('bg_color1');
 	$('#contact').removeClass('bg_color1');
-	var html = $("#blocCreation").html();
-	$("#blocDyn").html(html);
-}
-
-function refonte(){
-	$('#blocDyn').attr('style','display: block');
-	$('#team').addClass('bg_color1');
-	$('#contact').removeClass('bg_color1');
-	var html = $("#blocRefonte").html();
-	$("#blocDyn").html(html);
-}
-
-function consult(){
-	$('#blocDyn').attr('style','display: block');
-	$('#team').addClass('bg_color1');
-	$('#contact').removeClass('bg_color1');
-	var html = $("#blocConsult").html();
+	var html = $("#"+bloc).html();
 	$("#blocDyn").html(html);
 }
 
 $("#creation").on("click", function(){
-	creation();
+    blocDyn("blocCreation");
 });
 
 $("#refonte").on("click", function(){
-	refonte();
+    blocDyn("blocRefonte");
 });
 
 $("#consult").on("click", function(){
-	consult();
+    blocDyn("blocConsult");
 });
 
 function makeDevis(type){

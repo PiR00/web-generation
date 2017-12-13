@@ -188,9 +188,9 @@
             </div>
         </div>
     </section>
-	<section class="team_area section_pdd" id="blocDyn" style="display:none;">
+	<section class="team_area section_pdd" id="blocDyn" style="visibility:collapse;">
 
-  </section>
+    </section>
 
     <section class="team_area section_pdd" id="team">
         <div class="container">
